@@ -1,26 +1,105 @@
+html {
+  background-color: #522;
+}
 
-h1 {color: red; font-size: 60px;
-  font-weight: bolder;
+h1 {
+  text-align: center;
+  font-family: monospace;
+  font-size: 4em;
+  color: #ccc;
+}
+
+h2 {
+  font-size: 2.5em;
+  color: #bb5;
+}
+
+h3 {
   font-family: sans-serif;
-  text-align:left;
-  margin-bottom: 0px;
-  padding-bottom: 0px;
+  font-size: 2em;
 }
-#main {width: 640px; margin: 0 auto;}
-h3 {color: black; font-size: 25px;
-    font-weight: normal;
-    font-family: sans-serif;
-  text-align: left;
-margin-top: 0px;
+
+h5 {
+  font-family: 'Aref Ruqaa';
+  color: #ddd;
+  font-size: 2em;
+  margin-top: -10px;
 }
-img {outline-style: solid; outline-width: 2px; outline-color: red;}
+
+ul {
+  list-style: none;
+}
+
+li a {
+  font-size: 1.4em;
+  line-height: 3em;
+  color: #fff;
+  text-decoration: none;
+}
+
+li a:hover {
+  color: #aaa;
+  border: 2px solid;
+  padding: 10px;
+  border-radius: 5px;
+  border-color: #a00;
+}
+
+img {
+  border-radius: 15px;
+}
+
+#homeContent {
+  background-color: black;
+  display: flex;
+  border-radius: 30px;
+}
+
+#navagation {
+  background-color: #700;
+  width: 11%;
+  padding-right: 1%;
+  font-family: sans-serif;
+  border-radius: 30px 0 0 30px;
+}
+
+#main {
+  background-color: #a00;
+  width: 79%;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  font-family: monospace;
+  color: #fff;
+}
+
+#main p {
+  font-size: 1.25em;
+  color: #bbb;
+  line-height: 1.5rem;
+}
+
+#extra {
+  color: #999;
+  background-color: #700;
+  width: 10%;
+  padding-left: 1%;
+  padding-right: 1%;
+  text-align: center;
+  border-radius: 0 30px 30px 0;
+}
+
+#extra p {
+  font-size: 1.2em;
+  color: #ccc;
+}
+
+.contactInfo {
+  margin-top: -40px;
+}
 
 footer {
-  width: 640px;
-  background-color: #b9b4b4;
-   color: black;
-    display:block;
-     text-align:center;
-     padding-top: 5px;
-     padding-bottom: 5px;
+  text-align: center;
+  background-color: #822;
+  height: 50px;
 }
